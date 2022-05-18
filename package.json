@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server"
+    "start": "node server"
   },
   "keywords": [],
   "author": "",
@@ -37,5 +37,8 @@
     "passport-local": "^1.0.0",
     "validator": "^13.7.0",
     "xss-clean": "^0.1.1"
+  },
+  "engines":{
+    "node": "16.x"
   }
 }
